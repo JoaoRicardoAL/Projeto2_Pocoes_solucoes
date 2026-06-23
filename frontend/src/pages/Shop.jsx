@@ -6,7 +6,7 @@ function Shop(){
     const [potions, setPotions] = useState([]);
 
     useEffect(() => {
-        axios.get("http://localhost:3000/potions")
+        axios.get('http://localhost:3000/api/potions')
             .then(response => setPotions(response.data))
             .catch(error => console.error("Erro ao buscar poções:", error));
     }, []);
