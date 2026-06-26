@@ -13,7 +13,7 @@ O projeto adota uma arquitetura separada em Web Service (API) e Interface do Usu
 ### Back-end (Web Service)
 * **Node.js** com framework **Express.js** para roteamento da API.
 * **Sequelize ORM** para modelagem e comunicação com o banco de dados.
-* **SQLite** operando em modo memória (`:memory:`)[cite: 20, 26].
+* **SQLite** operando em modo memória (`:memory:`).
 
 ### Front-end (Interface)
 * **React** (inicializado via **Vite**) para componentização e reatividade da interface.
