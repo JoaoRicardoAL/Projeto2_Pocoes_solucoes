@@ -40,13 +40,26 @@ Como a aplicação é dividida em dois ecossistemas (Back-end e Front-end), é n
 1. Abra o seu terminal e navegue até a pasta do back-end:
    ```bash
    cd backend
+   ```
+2. Instale as dependencias
+   ```bash
    npm install
+   ```
+3. Inicie o servidor
+   ```bash
    npm start
-   ``` 
-2. Abra uma nova aba no terminal e vá até a pasta frontend
+   ```
+### Iniciando o Front-end
+1. Abra uma nova aba no terminal e vá até a pasta frontend
    ```bash
    cd frontend
+   ```
+2. Instale as dependencias
+   ```bash
    npm install
+   ```
+3. Inicie o servidor
+   ```bash
    npm run dev
-   ``` 
-3. Abra o localhost, em seu navegador, que é mostrado no terminal
+   ```
+4. Abra o localhost, em seu navegador, que é mostrado no terminal
