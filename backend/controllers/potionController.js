@@ -1,4 +1,4 @@
-import Potion from "../models/potion.js";
+import Potion from "../models/Potion.js";
 
 // Lista todas as poções
 export const listPotion = async (req, res) => {

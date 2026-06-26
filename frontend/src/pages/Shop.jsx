@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import PotionCard from "../components/PotionCard";
+import fachadaImg from "../assets/fachada.png";
 
 function Shop(){
     const [potions, setPotions] = useState([]);
@@ -15,8 +16,36 @@ function Shop(){
         <div className="container">
             <header>
                 <h1>Poções e Soluções</h1>
-                <p>Loja de poções por Annabelle Merigold</p>              
+                <p>por Annabelle Merigold</p>              
             </header>
+
+            <section className="shop-description">
+              <h2>Sobre Nós</h2>
+              <p>
+                Bem-vindo à <strong>Poções e Soluções</strong>, a loja mais tradicional do 
+                Beco da Última Saída! Nós oferecemos poções de diversos tipos para as 
+                suas necessidades mágicas do dia a dia.
+              </p>
+            </section>          
+
+            <section className="shop-history">
+              <h2>Nosso Histórico</h2>
+              <p>
+                Criada no ano de <strong>1867</strong>, a nossa loja possui mais de um século 
+                de tradição e sucesso no mundo mágico, passando de geração em geração 
+                na família de Innabelle Merigold. Recentemente, expandimos nossos horizontes 
+                do ambiente físico para o e-commerce, trazendo nossa magia diretamente 
+                para você!
+              </p>
+              <div className="fachada-img">
+                <img 
+                src= {fachadaImg} 
+                alt="Foto histórica da fachada da loja em 1867" 
+                className="history-img"
+              />
+              </div>
+              
+            </section>
             
             <section>
                 <h2>Produtos</h2>

@@ -24,19 +24,19 @@ const seedDatabase = async () => {
     await Potion.bulkCreate([
       {
         name: "Poção Blue Sky",
-        description: "Essa poção faz com que você fique cheirando lilás e groselha por 24 dias. Essência muito admirada pelos bruxos.",
+        description: " Essa poção provê um surto de inspiração por 24 horas. Foi utilizada por John Lennon quando escreveu Lucy in the Sky with Diamonds.",
         image: "https://i.ibb.co/ZzS7xb2/rsz-sky.png",
         price: 300
       },
       {
         name: "Poção de Perfume Misterioso",
-        description: "Essa poção faz com que você fique cheirando lilás e groselha por 24 dias.",
+        description: "Essa poção faz com que você fique cheirando lilás e groselha por 24 dias. Essência muito admirada pelos bruxo",
         image: "https://i.ibb.co/pyhZJXf/rsz-lilas.png",
         price: 200
       },
       {
         name: "Poção de Pinus",
-        description: "Essa poção faz com que você fique 10 cm mais alto!",
+        description: "Essa poção faz com que você fique 10 cm mais alto! Observação: efeitos colaterais desconhecidos.",
         image: "https://i.ibb.co/DkzdL1q/rsz-pinus.png",
         price: 3000
       },

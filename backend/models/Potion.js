@@ -19,3 +19,5 @@ const Potion = sequelize.define("Potion", {
         allowNull: false,
     }
 });
+
+export default Potion;

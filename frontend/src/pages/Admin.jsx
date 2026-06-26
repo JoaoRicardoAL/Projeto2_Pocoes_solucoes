@@ -81,17 +81,22 @@ function Admin() {
             <hr />
 
             <section>
-                <h2>Poções Cadastradas</h2>
-                <ul>
-                    {potions.map(potion => (
-                        <li key={potion.id}>
-                            {potion.name} - {potion.price} moedas
-                            <button onClick={() => deletePotion(potion.id)} style={{ marginLeft: '10px', backgroundColor: 'red' }}>
-                                Remover
-                            </button>
-                        </li>
-                    ))}
-                </ul>
+              <h2>Poções Cadastradas</h2>
+              <ul className="admin-table-list">
+                {potions.map(potion => (
+                  <li key={potion.id} className="admin-table-row">
+                    <span className="row-name">{potion.name}</span>
+                    <span className="row-price">{potion.price} moedas</span>
+
+                    <button 
+                      className="btn-remove" 
+                      onClick={() => deletePotion(potion.id)}
+                    >
+                      Remover
+                    </button>
+                  </li>
+                ))}
+              </ul>
             </section>
         </div>
     );
